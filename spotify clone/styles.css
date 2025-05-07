@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+}
+
+nav {
+    font-family: -apple-system;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.056);
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#logo-name {
+    font-size: x-large;
+    width: max-content;
+    margin-right: 20px;
+}
+
+#logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* song Container  */
+h1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.containor {
+
+    height: 390px;
+    width: 90%;
+    background-color: rgba(14, 13, 13, 0);
+    /* background-color: aqua; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-self: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    margin-left: 10px;
+    -ms-overflow-style: none;
+    /* IE/Edge */
+
+}
+
+
+.containor::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari/Edge */
+}
+
+/* bottom  */
+
+.buttonbar {
+    height: 70px;
+    width: 100%;
+    /* background-color: rgba(230, 122, 122, 0); */
+    position: static;
+padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#progrsBar {
+    width: 90%;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+width: 90%;
+   /* background-color: aqua; */
+
+    
+}
+
+i:hover {
+    color: rgb(26, 33, 26);
+}
+
+i:active {
+    color: rgba(187, 205, 187, 0.537);
+}
+
+
+/* media section  */
+@media (max-width: 815px) {
+    body {
+        background-image: url(/images/bg\ -\ Copy.jpg);
+        background-size: cover;
+    }
+
+    .songList {
+        width: 7rem;
+        height: 8rem;
+    }
+
+}
+
+@media (max-width: 417px) {
+
+    body {
+        background-image: url(/images/bg\ -\ Copy\ \(2\).jpg);
+        background-size: cover;
+    }
+  
+    .songList {
+        width: 7rem;
+        height: 8rem;
+    }
+
+    .containor {
+
+        height: 450px;
+        width: 100%;
+
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #minubar {
+        display: none;
+    }
+}
+
+.songList {
+    display: flex;
+    width: 20%;
+    height: 20vm;
+    background-color: rgba(70, 65, 65, 0.526);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    font-weight: 1000;
+
+    cursor: pointer;
+}
+
+.songList:hover {
+    background-color: rgba(51, 51, 51, 0.352);
+}
+
+
+
+i {
+    cursor: pointer;
+
+}
+
+@media (min-width: 814px) {
+    .songList {
+        width: 22vmin;
+        height: 22vmin;
+    }
+
+    .containor {
+        width: 88%;
+        margin-left: 20px;
+    }
+}
+
+.buttonbar {
+    position: fixed;
+    bottom: 0px;
+    background-color:  rgb(22, 22, 23);
+    
+    
+}
+
+#minubar {
+    width: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(22, 22, 23, 0.388);
+
+}
+
+main {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+
+}
+.chnjBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+      width: 4rem;
+      height: 3.5rem;
+      background-color: rgb(14, 12, 12);
+      border-radius: 50%;
+ }
+@media (max-width: 416px) {
+    .containor {
+        justify-content: none;
+    }
+    .buttonbar {
+        background-color: rgb(39, 109, 109);
+        padding-right: 20px;
+    }
+    .chnjBtn{
+        border-radius: 1px 1px 1px 1px;
+        background-color:rgba(0, 128, 0, 0);
+    }
+   
+    .songList {
+
+        width: 31%;
+        height: 30vmin;
+    }
+
+    .fa-house {
+        display: none;
+    }
+
+    #minubar {
+        display: none;
+    }
+}
+
+.songName {
+    color: rgb(190, 184, 184);
+
+}
+
+audio {
+    width: 90%;
+    height: 50px;
+
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(195, 184, 184, 0);
+border-radius: 1px;
+}
+
+
+audio::-webkit-media-controls-play,
+audio::-webkit-media-controls {
+    filter: invert(1);
+    
+}
+
+#mysongname{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+ 
+
+
+ 
+
+.fa-forward{
+    margin-right: 20px;
+}
+
