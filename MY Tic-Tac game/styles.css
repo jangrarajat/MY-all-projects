@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ 
+}
+
+body{
+    background-color: #73c8f9;
+    display: flex;
+    justify-content: center;
+}
+
+#containor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70vmin;
+    width:  70vmin;
+    padding: 10px;
+    column-gap: 10px;
+border-radius: 20px;
+
+}
+ 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    color: rgb(66, 75, 93);
+    font-size: xx-large;
+    text-shadow:0 0 3rem #6b6cff;
+    
+   
+}
+.box {
+    color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 22vmin;
+    height: 22vmin;
+    border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 7px rgb(0, 0, 0, 0.5);
+font-size: 20vmin;
+}
+
+.game-buttons {
+    cursor: pointer;
+    width: 60vmin;
+    height: 10vmin;
+    border-radius: 10px;
+  background-color: #eee9e9;
+  color: black;
+  font-size: larger;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+
+}
+
+@media (max-width :500px) {
+ 
+    .box{
+        height: 20vmin;
+        width: 20vmin;
+    }
+}
+
+#reset-alert{
+    max-width: 70vmin;
+    height: 20vmin;
+    width:80%;
+    background-color: #dadaf3;
+    position: fixed;
+  top: 200px;
+  border-radius: 5px;
+}
+
+#reset-msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600;
+
+}
+#reset-yes-no{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.reset-msg-btn{
+    width: 40%;
+    height: 50%;
+}
+
+/* winnerdiv  */ 
+
+.winner-output{
+    margin-top: 50px;
+   position: fixed;
+   background-image: url(/phottos/A\ Champion!\ \ –\ Congratulations\ Cards.jpeg.jpg);
+    background-size: contain;
+   height: 90vmin;
+    width:  70vmin;
+    padding: 10px;
+    column-gap: 10px;
+border-radius: 20px;
+}
+
+.new-game{
+    background-color:rgb(237, 237, 237);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    color: black;
+   border: none;
+    
+}
+.new-game:hover{
+    background-color: rgb(199, 194, 194);
+}
+
+
+.winner-button{
+    position: absolute;
+    bottom: 0px;
+    width: 97%;
+    bottom: 10px;
+    background-color: white;
+}
+.winner-button:hover{
+    background-color: rgb(237, 234, 234);
+}
+
+.winner-box{
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+   height: 20vmin;
+   width: 97%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.winner-span{
+    /* background-color: #6b6cff; */
+    font-size: xx-large;color: yellow;
+    font-weight: bolder;
+    text-shadow:0 10px 30px  black;
+
+}
+.winner-msg{
+    margin-right: 10px;
+}
