@@ -71,7 +71,7 @@ function clearDisplaySons() {
 function songAddingDisplay(songDietles) {
     let songDiv = document.createElement("div")
     songDiv.setAttribute("class", "songDiv")
-    songDiv.innerHTML = `<span class="songSpan">${songDietles.name}</span><img src"${songDietles.cover}" alt="Song Image"> `
+    songDiv.innerHTML = `<span class=songSpan>${songDietles.name}</span><img src${songDietles.cover} alt=Song Image> `
     imgSlider.append(songDiv)
 }
 
@@ -80,7 +80,7 @@ function songAddingDisplay(songDietles) {
         songs.forEach((list) => {
             let songDiv = document.createElement("div")
             songDiv.setAttribute("class", "songDiv")
-            songDiv.innerHTML = `<span class="songSpan">${list.name}</span><img src"${list.cover}" alt="Song Image"> `
+            songDiv.innerHTML = `<span class=songSpan>${list.name}</span><img src${list.cover} alt=Song Image> `
             imgSlider.append(songDiv)
         })
     }
