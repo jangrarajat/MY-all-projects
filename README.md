@@ -1,51 +1,54 @@
-# Hi there! 👋 I'm [Rajat jangra]
+# Namaste, I'm Rajat Jangra! 👋
 
-I am a passionate **Full Stack Developer** specializing in the **MERN** stack (MongoDB, Express.js, React, Node.js). I love building scalable web applications, solving complex problems, and constantly learning new technologies.
+I am a passionate **Full Stack Developer** specializing in the **MERN** stack. I love building robust, scalable web applications and exploring the depth of system workflows.
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+### 🎨 Frontend
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Tailwind CSS](https://img.shields.io/badge/tailwind_css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+### ⚙️ Backend
+![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-### Tools & Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+### 🗄️ Database & Storage
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
----
-
-## 🚀 Projects
-
-| Project Name | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[Project 1]** | Brief description of your awesome project. | MERN, Tailwind |
-| **[Project 2]** | Another cool project you built. | React, Firebase |
+### 🛠 Tools & Workflow
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/vs_code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-## 📈 My GitHub Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=[YOUR_GITHUB_USERNAME]&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USERNAME]&layout=compact&theme=radical)
+## 🚀 Expertise
+* **Authentication:** Implementing secure JWT-based Auth and Cookie Management.
+* **File Handling:** Integrating Cloudinary for seamless file uploads.
+* **Environment:** Comfortable with Docker, Podman, and terminal-based Linux workflows.
 
 ---
 
 ## 📬 Connect with me
 
-- 💼 [LinkedIn](https://linkedin.com/in/[YOUR_LINKEDIN_USERNAME])
-- 📧 [Email](mailto:[YOUR_EMAIL])
-- 🌐 [Portfolio]([YOUR_PORTFOLIO_URL])
+- 📧 **Email:** [rajatjangra940@gmail.com](mailto:rajatjangra940@gmail.com)
+- 💼 **LinkedIn:** [Insert your LinkedIn Link Here]
+- 🐙 **GitHub:** [Insert your GitHub Profile Link Here]
+
+---
+
+### ✨ A bit about me:
+* Always looking to optimize code and improve system architecture.
+* Enthusiastic about learning new technologies and contributing to open source.
 
 ---
